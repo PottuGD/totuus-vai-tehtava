@@ -34,7 +34,22 @@ truths = [
     "Milloin viimeksi pyysit anteeksi?",
     "Mitä pidät eniten kaikista huoneessasi olevista asioista?",
     "Kuka on suosikki elokuva hahmosi?",
-    "Puretko/syötkö kynsiäsi?"
+    "Puretko/syötkö kynsiäsi?",
+    "Jos voisit asua missä päin maailmaa tahansa, missä asuisit?",
+    "Monta kertaa harjaat hampaasi päivässä?",
+    "Milloin viimeksi teit jotain hyvää jollekin toiselle?",
+    "Milloin viimeksi lankasit hampaasi?",
+    "Oletko luntannut kokeessa?",
+    "Pidätkö suklaasta vai vaniljasta enemmän? (jäätelö)",
+    "Mikä oli paras päivä mitä olet koskaan kokenut?",
+    "Jos olisit lintu, millainen lintu haluaisit olla?",
+    "Pelkäätkö jotain, mitä?",
+    "Oletko koskaan kaatunut ystävien edessä?",
+    "Mitkä ovat perheesi jäsenten syntymäpäivät?",
+    "Mihin ruokaan olet käyttänyt eniten rahaa?",
+    "Kuka on paras ystäväsi koko maailmassa?",
+    "Osaatko puhua toista kieltä?",
+    "Onko sinulla lemmikiä, mikä?",
 ]
 
 dares = [
@@ -47,5 +62,17 @@ dares = [
     "Tee haarahyppyjä, 2 minuuttia.",
     "Pyörähdä ympäri kymmenen kertaa ja yritä sen jälkeen kävellä suoraan.",
     "Mene koputtamaan jonkun oveen ja kysy jotain, esim. Missä on vessa?",
-    "Juokse talosi ympäri 3 kertaa"
+    "Juokse talosi ympäri 3 kertaa",
+    "Luettele aakkoset mahdollisimman nopeasti.",
+    "Pinoa 5 keksiä otsallesi.",
+    "Kysy naapuriltasi kuppi sokeria.",
+    "Laita jääpaloja paitaasi tai housuihisi.",
+    "Luettele aakkoset väärinpäin.",
+    "syö sitruuna.",
+    "Mene ulos ja huuda hyvää joulua täysiä.",
+    "Tasapaino lusikka nenässäsi 10 sekunnin ajan.",
+    "Juokse talosi ympäri kädet selkäsi takana.",
+    "Jäljittele suosikki sarjakuvahahmoasi.",
+    "Tee 20 kyykkyhyppyä.",
+    "Piirrä auto paperille pitämällä kynä suussa.",
 ]
