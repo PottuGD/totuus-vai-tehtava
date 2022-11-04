@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
 
-
+latestMsg = ''
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='.', intents=intents)
 
@@ -23,6 +23,8 @@ async def ping(ctx):
 @client.command(aliases=['to'])
 async def totuus(ctx):
 
+    global latestMsg
+
     user = client.get_user(ctx.message.author.id)
     profilePicture = user.avatar.url
 
@@ -36,10 +38,10 @@ async def totuus(ctx):
     embed.set_footer(text="paina 🎭 jos haluat Auden totuuden. paina ⚒ jos haluat uuden tehtävän")
 
     async def buttonSign_callback1(interaction):
-        await totuus(ctx)
+        await totuus((await client.get_context(latestMsg)))
 
     async def buttonSign_callback2(interaction):
-        await tehtävä(ctx)
+        await tehtävä((await client.get_context(latestMsg)))
 
     async def buttonSign_callback3(interaction):
         await randomq(ctx)
@@ -53,10 +55,12 @@ async def totuus(ctx):
     view.add_item(item=buttonSign2)
     view.add_item(item=buttonSign3)
 
-    await ctx.send(embed=embed, view=view)
+    latestMsg = await ctx.reply(embed=embed, view=view, mention_author=False)
 
 @client.command(aliases=['te'])
 async def tehtävä(ctx):
+
+    global latestMsg
 
     user = ctx.message.author
     profilePicture = user.avatar.url
@@ -71,10 +75,10 @@ async def tehtävä(ctx):
     embed.set_footer(text="paina 🎭 jos haluat uuden totuuden. paina ⚒ jos haluat uuden tehtävän.")
 
     async def buttonSign_callback1(interaction):
-        await totuus(ctx)
+        await totuus((await client.get_context(latestMsg)))
 
     async def buttonSign_callback2(interaction):
-        await tehtävä(ctx)
+        await tehtävä((await client.get_context(latestMsg)))
 
     async def buttonSign_callback3(interaction):
         await randomq(ctx)
@@ -87,7 +91,7 @@ async def tehtävä(ctx):
     view.add_item(item=buttonSign2)
     view.add_item(item=buttonSign3)
 
-    await ctx.send(embed=embed, view=view)
+    latestMsg = await ctx.reply(embed=embed, view=view, mention_author=False)
 
 @client.command(aliases=['ra', 'r', 'random'])
 async def randomq(ctx):
@@ -106,5 +110,8 @@ async def ehdotaEmbed(ctx):
 
     await ctx.send(embed=embed)
 
+@client.command()
+async def test(ctx):
+    pass
 
 client.run(os.getenv('TOKEN'))
