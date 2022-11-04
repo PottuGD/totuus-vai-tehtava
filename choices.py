@@ -14,8 +14,7 @@ truths = [
     "Pelkäätkö pimeää?",
     "Mikä on pelottavin näkemäsi painajainen?",
     "Minkä yhden asian muuttaisit itsessäsi?",
-    "Jos tapaisit lampunhengen, mitkä olisivat toivomasi kolme asiaa?",
-    "e"
+    "Jos tapaisit lampunhengen, mitkä olisivat toivomasi kolme asiaa?"
 ]
 
 dares = [
