@@ -39,12 +39,15 @@ async def totuus(ctx):
 
     async def buttonSign_callback1(interaction):
         await totuus((await client.get_context(latestMsg)))
+        await interaction.response.defer()
 
     async def buttonSign_callback2(interaction):
         await tehtävä((await client.get_context(latestMsg)))
+        await interaction.response.defer()
 
     async def buttonSign_callback3(interaction):
         await randomq(ctx)
+        await interaction.response.defer()
 
 
     buttonSign1.callback = buttonSign_callback1
@@ -76,12 +79,15 @@ async def tehtävä(ctx):
 
     async def buttonSign_callback1(interaction):
         await totuus((await client.get_context(latestMsg)))
+        await interaction.response.defer()
 
     async def buttonSign_callback2(interaction):
         await tehtävä((await client.get_context(latestMsg)))
+        await interaction.response.defer()
 
     async def buttonSign_callback3(interaction):
         await randomq(ctx)
+        await interaction.response.defer()
 
     buttonSign1.callback = buttonSign_callback1
     buttonSign2.callback = buttonSign_callback2
