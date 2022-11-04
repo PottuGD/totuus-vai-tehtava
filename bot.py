@@ -2,6 +2,10 @@ import discord
 from discord.ext import commands
 import random
 from choices import truths, dares
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env.
 
 
 intents = discord.Intents.all()
@@ -103,4 +107,4 @@ async def ehdotaEmbed(ctx):
     await ctx.send(embed=embed)
 
 
-client.run('MTAzNzYyMzE0NTI0MDIxNTYwMg.GWCds0.qyDtrA2TIr3sGpkFtQH8du5lI5OhUULc-Qsc_k')
+client.run(os.getenv('TOKEN'))
