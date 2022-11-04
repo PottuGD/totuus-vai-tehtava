@@ -14,7 +14,27 @@ truths = [
     "Pelkäätkö pimeää?",
     "Mikä on pelottavin näkemäsi painajainen?",
     "Minkä yhden asian muuttaisit itsessäsi?",
-    "Jos tapaisit lampunhengen, mitkä olisivat toivomasi kolme asiaa?"
+    "Jos tapaisit lampunhengen, mitkä olisivat toivomasi kolme asiaa?",
+    "Haluaisitko vaihtaa oman nimesi?",
+    "Haluaisitko mennä rannalle tai vuorille nyt?",
+    "Mikä on lempiruokasi?",
+    "Pidätkö romanttisista elokuvista?",
+    "Mikä supersankari on huonoin kaikista?",
+    "Mikä on lempinimesi?",
+    "Mikä on vähiten suosikki lahja, jonka olet koskaan saanut?",
+    "Mitä tekisit, jos olisit jättiläinen?",
+    "Pidätkö hot dogeista?",
+    "Onko sinut kutsuttu snitchiksi?",
+    "Oletko koskaan avannut joululahjoja ennen jouluaattoa?",
+    "Mikä on suosikki urheilulajisi?",
+    "Jos sinulla olisi aikakone, minne haluaisit mennä?",
+    "Mikä on ensimmäinen asia, jonka teet koulun jälkeen?",
+    "Onko sänkysi alla piilossa jotain?",
+    "Minkä mieluummin syöt ruuaksi: pikaruokaa vai äidin kotiruokaa?",
+    "Milloin viimeksi pyysit anteeksi?",
+    "Mitä pidät eniten kaikista huoneessasi olevista asioista?",
+    "Kuka on suosikki elokuva hahmosi?",
+    "Puretko/syötkö kynsiäsi?"
 ]
 
 dares = [
@@ -26,5 +46,6 @@ dares = [
     "Anna jonkun kaverisi meikata sinut hullun näköiseksi.",
     "Tee haarahyppyjä, 2 minuuttia.",
     "Pyörähdä ympäri kymmenen kertaa ja yritä sen jälkeen kävellä suoraan.",
-    "Mene koputtamaan jonkun oveen ja kysy jotain, esim. Missä on vessa?"
+    "Mene koputtamaan jonkun oveen ja kysy jotain, esim. Missä on vessa?",
+    "Juokse talosi ympäri 3 kertaa"
 ]
