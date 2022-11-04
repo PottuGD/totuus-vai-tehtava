@@ -75,4 +75,5 @@ dares = [
     "Jäljittele suosikki sarjakuvahahmoasi.",
     "Tee 20 kyykkyhyppyä.",
     "Piirrä auto paperille pitämällä kynä suussa.",
+    "Pyydä ystävääsi tai sisartasi tekemään sinulle uusi kampaus."
 ]
